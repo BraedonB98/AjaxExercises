@@ -1,0 +1,37 @@
+[{
+    "username": "john",
+    "firstName": "John",
+    "lastName": "Doe",
+    "attributes" : {
+        "gender": "Male",
+        "age" : 26,
+        "profileURL": "john.jpg"
+    },
+    "favoriteFood" : ["Pizza", "Chinese Food"],
+    "email": "john.doe@example.com"
+},
+{
+    "username": "jane",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "attributes" : {
+        "gender": "Female",
+        "age" : 24,
+        "profileURL": "jane.jpg"
+    },
+    "favoriteFood" : ["Oxtail", "Plantains"],
+    "email": "jane.doe@example.com"
+},
+{
+    "username": "harry",
+    "firstName": "Harry",
+    "lastName": "Doe",
+    "attributes" : {
+        "gender": "Unknown",
+        "age" : 50,
+        "profileURL": "harry.jpg"
+    },
+    "favoriteFood" : ["Curry Chicken", "Lemon Chicken"],
+    "email": "harry@example.com"
+}
+]
