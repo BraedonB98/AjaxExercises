@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Guess Your Age</h1>
+    <form>
+        <div class="form-group">
+            <label>Enter Name To Guess Age</label>
+            <input type="text" name="name" id="name" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <p class="lead"><span id="name_output"></span> is estimated to be <span id="age_output"></span> years old</span></p>
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-success" id="guessBtn">Guess</button>
+        </div>
+    </form>
+</body>
+<script type="text/javascript">
+/**
+* We are going to implement Axios for making calls to an API
+* with dynamic data
+*
+* The api we will using is tha agify api, the will give back an age
+* based on a persons name. See the api example here:
+* https://api.agify.io/?name=john
+* https://api.agify.io/?name=sarah
+* https://api.agify.io/?name=david
+*
+* Implement the following:
+* 1. Implement Axios. Follow the install instructions here: https://github.com/axios/axios#installing
+* 2. Retrieve the user input from the text area
+* 3. If there is no input, display an alert error
+* 4. If there is input, pass the information to the agify api abovee
+* 5. Parse the returned json result, and output the age and name to html output spans
+**/
+
+</script>
+</html>
